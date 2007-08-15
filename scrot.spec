@@ -1,7 +1,7 @@
 
 %define name	scrot
 %define version	0.8
-%define rel     1
+%define rel     2
 %define release %mkrel %rel
 %define summary Screen-shot capture using Imlib 2
 
@@ -17,13 +17,13 @@ Source: 	http://linuxbrit.co.uk/downloads/%{name}-%{version}.tar.gz
 Url: 		http://www.linuxbrit.co.uk
 BuildRoot:      %{_tmppath}/%{name}-buildroot
 Buildrequires:  libgiblib-devel
+Buildrequires:  autoconf2.5
 
 	
 
 %description
-A nice and straightforward screen capture 
-utility implementing the dynamic
-loaders of imlib2.
+A nice and straightforward screen capture utility implementing the 
+dynamic loaders of imlib2.
 
 %prep
 
@@ -32,7 +32,7 @@ loaders of imlib2.
 %build
 CFLAGS="$RPM_OPT_FLAGS"
 
-%configure
+%configure2_5x
 
 
 %make
@@ -49,7 +49,7 @@ rm -rf %buildroot
 
 %files
 %defattr(-,root,root,755)
+%doc %_defaultdocdir/%name
 %doc AUTHORS ChangeLog README TODO
 %_bindir/%name
-%_mandir/man1/%name.1.bz2
-%_defaultdocdir/%name/*
+%_mandir/man1/%name.1.*
