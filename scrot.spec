@@ -15,6 +15,7 @@ License: 	BSD
 Group:		Graphics
 Source: 	http://linuxbrit.co.uk/downloads/%{name}-%{version}.tar.gz
 Url: 		http://www.linuxbrit.co.uk
+BuildRoot:      %{_tmppath}/%{name}-buildroot
 Buildrequires:  libgiblib-devel
 Buildrequires:  autoconf2.5
 
