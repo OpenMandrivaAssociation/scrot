@@ -1,7 +1,7 @@
 
 %define name	scrot
 %define version	0.8
-%define rel     2
+%define rel     3
 %define release %mkrel %rel
 %define summary Screen-shot capture using Imlib 2
 
