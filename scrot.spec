@@ -1,7 +1,7 @@
 Summary:	Screen-shot capture using Imlib 2
 Name:		scrot
 Version:	0.8
-Release:	5
+Release:	6
 License:	BSD
 Group:		Graphics
 Source0:	http://linuxbrit.co.uk/downloads/%{name}-%{version}.tar.gz
