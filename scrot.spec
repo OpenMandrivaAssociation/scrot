@@ -7,6 +7,7 @@ Group:		Graphics
 Source0:	http://linuxbrit.co.uk/downloads/%{name}-%{version}.tar.gz
 Url:		http://www.linuxbrit.co.uk
 BuildRequires:	pkgconfig(giblib)
+BuildRequires:	pkgconfig(x11)
 BuildRequires:	autoconf2.5
 
 %description
