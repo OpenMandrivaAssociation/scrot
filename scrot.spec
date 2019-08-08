@@ -10,6 +10,7 @@ BuildRequires:	pkgconfig(giblib)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(imlib2)
 BuildRequires:	autoconf2.5
+BuildRequires:	autoconf-archive
 
 %description
 A nice and straightforward screen capture utility implementing the 
