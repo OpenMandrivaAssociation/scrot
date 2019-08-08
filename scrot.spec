@@ -1,13 +1,14 @@
 Summary:	Screen-shot capture using Imlib 2
 Name:		scrot
-Version:	0.8
-Release:	7
+Version:	1.1.1
+Release:	1
 License:	BSD
 Group:		Graphics
-Source0:	http://linuxbrit.co.uk/downloads/%{name}-%{version}.tar.gz
+Source0:	https://github.com/resurrecting-open-source-projects/scrot/archive/%{version}.tar.gz
 Url:		http://www.linuxbrit.co.uk
 BuildRequires:	pkgconfig(giblib)
 BuildRequires:	pkgconfig(x11)
+BuildRequires:	pkgconfig(imlib2)
 BuildRequires:	autoconf2.5
 
 %description
@@ -18,16 +19,13 @@ dynamic loaders of imlib2.
 %setup -q 
 
 %build
+autoreconf -fiv
 %configure
-
 %make
 
 %install
-mkdir -p %buildroot%_defaultdocdir
 %{makeinstall_std}
-mv %buildroot%_prefix/doc/* %buildroot%_defaultdocdir
 
 %files
-%doc %_defaultdocdir/%name
 %_bindir/%name
 %_mandir/man1/%name.1.*
