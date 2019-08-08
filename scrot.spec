@@ -10,6 +10,7 @@ BuildRequires:	pkgconfig(giblib)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(imlib2)
 BuildRequires:	pkgconfig(xfixes)
+BuildRequires:	pkgconfig(xcursor)
 BuildRequires:	autoconf2.5
 BuildRequires:	autoconf-archive
 
