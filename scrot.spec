@@ -9,6 +9,7 @@ Url:		http://www.linuxbrit.co.uk
 BuildRequires:	pkgconfig(giblib)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(imlib2)
+BuildRequires:	pkgconfig(xfixes)
 BuildRequires:	autoconf2.5
 BuildRequires:	autoconf-archive
 
