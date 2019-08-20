@@ -1,6 +1,6 @@
 Summary:	Screen-shot capture using Imlib 2
 Name:		scrot
-Version:	1.1.1
+Version:	1.2
 Release:	1
 License:	BSD
 Group:		Graphics
