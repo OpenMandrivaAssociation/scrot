@@ -1,10 +1,10 @@
 Summary:	Screen-shot capture using Imlib 2
 Name:		scrot
-Version:	1.3
+Version:	1.7
 Release:	1
 License:	BSD
 Group:		Graphics
-Source0:	https://github.com/resurrecting-open-source-projects/scrot/archive/%{version}.tar.gz
+Source0:	https://github.com/resurrecting-open-source-projects/scrot/archive/%{name}-%{version}.tar.gz
 Url:		http://www.linuxbrit.co.uk
 BuildRequires:	pkgconfig(giblib)
 BuildRequires:	pkgconfig(x11)
@@ -32,3 +32,5 @@ autoreconf -fiv
 %files
 %_bindir/%name
 %_mandir/man1/%name.1.*
+
+%doc AUTHORS ChangeLog README.md scrot.png
