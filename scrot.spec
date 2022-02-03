@@ -14,6 +14,7 @@ BuildRequires:	pkgconfig(xcursor)
 BuildRequires:	autoconf2.5
 BuildRequires:	autoconf-archive
 BuildRequires:	pkgconfig(xcomposite)
+BuildRequires:	pkgconfig(xext)
 
 %description
 A nice and straightforward screen capture utility implementing the 
