@@ -13,6 +13,7 @@ BuildRequires:	pkgconfig(xfixes)
 BuildRequires:	pkgconfig(xcursor)
 BuildRequires:	autoconf2.5
 BuildRequires:	autoconf-archive
+BVuildRequires: pkgconfig(xcomposite)
 
 %description
 A nice and straightforward screen capture utility implementing the 
