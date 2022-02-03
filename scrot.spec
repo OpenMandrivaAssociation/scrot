@@ -15,7 +15,7 @@ BuildRequires:	autoconf2.5
 BuildRequires:	autoconf-archive
 BuildRequires:	pkgconfig(xcomposite)
 BuildRequires:	pkgconfig(xext)
-
+BuildRequires:	pkgconfig(libbsd)
 %description
 A nice and straightforward screen capture utility implementing the 
 dynamic loaders of imlib2.
