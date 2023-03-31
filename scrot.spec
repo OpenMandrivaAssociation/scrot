@@ -1,7 +1,7 @@
 Summary:	Screen-shot capture using Imlib 2
 Name:		scrot
 Version:	1.7
-Release:	1
+Release:	2
 License:	BSD
 Group:		Graphics
 Source0:	https://github.com/resurrecting-open-source-projects/scrot/archive/%{name}-%{version}.tar.gz
