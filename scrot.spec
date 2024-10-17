@@ -5,7 +5,7 @@ Release:	2
 License:	BSD
 Group:		Graphics
 Source0:	https://github.com/resurrecting-open-source-projects/scrot/archive/%{name}-%{version}.tar.gz
-Url:		http://www.linuxbrit.co.uk
+Url:		https://www.linuxbrit.co.uk
 BuildRequires:	pkgconfig(giblib)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(imlib2)
